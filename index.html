@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SiteDNA: read the design DNA of any website</title>
+  <meta name="description" content="Chrome extension that extracts a website's colors, fonts and images, audits design consistency and WCAG contrast, and exports design tokens. One-time license, no account.">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top wrap">
+    <a class="wordmark" href="./">SiteDNA</a>
+    <nav aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#report">PRO report</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">Questions</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <h1>Read the design DNA of any website.</h1>
+      <p class="lede">SiteDNA is a Chrome extension that pulls the colors, fonts and images out of the page you are on, checks how consistent and readable they are, and turns them into design tokens you can paste into your project.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#features">See what it finds</a>
+        <!-- At launch: replace this span with the Chrome Web Store link -->
+        <span class="status">Coming soon to the Chrome Web Store</span>
+      </div>
+      <p class="promise">One payment, no account, and the analysis never leaves your browser.</p>
+    </section>
+
+    <section class="specimen wrap" aria-labelledby="specimen-title">
+      <h2 id="specimen-title" class="sr-only">This page, measured</h2>
+      <div id="dna" class="dna" role="img" aria-label="Colors measured from this page"></div>
+      <dl class="readout">
+        <div><dt>Colors on this page</dt><dd id="dnaCount">–</dd></div>
+        <div><dt>Display typeface</dt><dd id="dnaFont">–</dd></div>
+        <div><dt>Body text contrast</dt><dd id="dnaContrast">–</dd></div>
+      </dl>
+      <p class="caption">Measured a moment ago from this very page, inside your browser. SiteDNA reads any website the same way.</p>
+      <noscript><p class="caption">Turn on JavaScript to watch this page measure itself.</p></noscript>
+    </section>
+
+    <section id="features" class="block wrap">
+      <h2>What you get</h2>
+      <div class="tiers">
+        <div class="tier">
+          <h3>Free, with no limits</h3>
+          <ul>
+            <li>Every color on the page, most used first, copied in one click</li>
+            <li>The typefaces the site really uses, without generic names or icon fonts</li>
+            <li>Images and SVG icons, ready to save one by one</li>
+            <li>No daily quota and no account</li>
+          </ul>
+        </div>
+        <div class="tier tier-pro">
+          <h3>PRO, for one payment</h3>
+          <ul>
+            <li>A brand kit report you can save as a PDF and hand to a client</li>
+            <li>A consistency audit: near-duplicate colors, stray font sizes and low-contrast text</li>
+            <li>Design tokens as CSS variables, a Tailwind v4 theme or a W3C tokens file</li>
+            <li>Every image on the page saved in one click</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="block wrap">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Open any website</h3>
+          <p>Click the SiteDNA icon in your toolbar. It reads only the tab in front of you, and only when you click.</p>
+        </li>
+        <li>
+          <h3>Browse what it found</h3>
+          <p>Colors, fonts and images appear in three tabs. Click a color or a font to copy it.</p>
+        </li>
+        <li>
+          <h3>Export the report</h3>
+          <p>With PRO, one click opens the full brand kit with the audit and the tokens, ready to print or share.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="report" class="block wrap">
+      <h2>Inside the PRO report</h2>
+      <ol class="report-index">
+        <li><b>Color palette</b><span>Every color on the page, ordered by how often it is used.</span></li>
+        <li><b>Typography system</b><span>The typefaces in use, with a preview of each.</span></li>
+        <li><b>Brand assets</b><span>Logos, icons and images found on the page.</span></li>
+        <li><b>Design consistency audit</b><span>Colors so close they should be merged, font sizes used once or twice, and text that fails WCAG AA contrast, with the exact ratio.</span></li>
+        <li><b>Design tokens</b><span>The cleaned-up palette and type scale as CSS variables, a Tailwind v4 theme or a W3C Design Tokens file.</span></li>
+      </ol>
+    </section>
+
+    <section id="pricing" class="block wrap">
+      <h2>Pricing</h2>
+      <div class="price">
+        <p class="amount">$9.99</p>
+        <p>One payment for SiteDNA PRO, with every future update included. Activate it on up to three Chrome installations.</p>
+        <!-- At launch: replace this span with the Lemon Squeezy checkout link -->
+        <span class="status">PRO opens at launch</span>
+        <p class="fine" style="margin-top:22px">Payments are handled by Lemon Squeezy, which emails you the receipt and your license key.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="block wrap">
+      <h2>Questions</h2>
+      <details>
+        <summary>Does SiteDNA send the websites I analyze anywhere?</summary>
+        <p>No. Colors, fonts and images are read and processed inside your browser. The only thing SiteDNA sends anywhere is your license key, to Lemon Squeezy, when you activate PRO. The <a href="privacy.html">privacy policy</a> has the details.</p>
+      </details>
+      <details>
+        <summary>Do I need an account?</summary>
+        <p>No. The free features work as soon as you install. PRO needs only the license key from your receipt.</p>
+      </details>
+      <details>
+        <summary>How many computers can I use PRO on?</summary>
+        <p>Each license key activates on up to three Chrome installations.</p>
+      </details>
+      <details>
+        <summary>What is WCAG contrast?</summary>
+        <p>WCAG is the web's accessibility standard. Its AA level asks for a contrast ratio of at least 4.5:1 between normal text and its background, and 3:1 for large text. SiteDNA measures every text and background pair it can see and lists the pairs below that line.</p>
+      </details>
+      <details>
+        <summary>Which token formats can I export?</summary>
+        <p>CSS custom properties, a Tailwind CSS v4 <code>@theme</code> block, and a <code>.tokens.json</code> file in the W3C Design Tokens format (2025.10).</p>
+      </details>
+      <details>
+        <summary>Can SiteDNA read every page?</summary>
+        <p>It reads normal web pages. Chrome keeps its own pages, such as the new tab page, settings and the Chrome Web Store, closed to every extension.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="foot wrap">
+    <span>© 2026 MT24Learning</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:mt24learning.support@gmail.com">mt24learning.support@gmail.com</a>
+  </footer>
+
+  <script src="dna.js"></script>
+</body>
+</html>
