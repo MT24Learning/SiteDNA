@@ -1,3 +1,5 @@
+<img src="logo.svg" width="72" height="72" alt="SiteDNA logo">
+
 # SiteDNA
 
 **Read the design DNA of any website.**

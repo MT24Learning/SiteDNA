@@ -39,7 +39,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--indigo); outli
 
 /* Header */
 .top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-top: 22px; padding-bottom: 22px; }
-.wordmark { font: 750 24px/1 var(--display); color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
+.wordmark { display: inline-flex; align-items: center; gap: 10px; font: 750 24px/1 var(--display); color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
 .top nav { display: flex; flex-wrap: wrap; gap: 6px 22px; }
 .top nav a { color: var(--muted); text-decoration: none; font-size: 14px; }
 .top nav a:hover { color: var(--ink); }
