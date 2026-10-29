@@ -21,13 +21,13 @@ SiteDNA is a Chrome extension that pulls the colors, fonts and images out of the
 
 - The analysis runs inside your browser. Pages you analyze are never sent anywhere.
 - No analytics, no tracking, no ads, no account.
-- The only thing SiteDNA sends anywhere is your license key, to Lemon Squeezy, when you activate PRO.
+- The only thing SiteDNA sends anywhere is your license key, to Polar, when you activate PRO.
 
 Read the full [privacy policy](https://mt24learning.github.io/SiteDNA/privacy.html).
 
 ## Pricing
 
-SiteDNA PRO costs **$9.99 once**, with every future update included. Each license key activates on up to three Chrome installations. Payments are handled by [Lemon Squeezy](https://www.lemonsqueezy.com), the merchant of record.
+SiteDNA PRO costs **$9.99 once**, with every future update included. Each license key activates on up to three Chrome installations. Payments are handled by [Polar](https://polar.sh), the merchant of record.
 
 ## Support
 
