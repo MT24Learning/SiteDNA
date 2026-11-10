@@ -6,7 +6,7 @@
 
 SiteDNA is a Chrome extension that pulls the colors, fonts and images out of the page you are on, checks how consistent and readable they are, and turns them into design tokens you can paste into your project.
 
-[Website](https://mt24learning.github.io/SiteDNA/) · [Privacy policy](https://mt24learning.github.io/SiteDNA/privacy.html) · Chrome Web Store: coming soon
+[**Add to Chrome**](https://chromewebstore.google.com/detail/sitedna-brand-kit-color-f/gkbhbbhbaekbeefgcbekjakfmjljnmnk) · [Website](https://mt24learning.github.io/SiteDNA/) · [Privacy policy](https://mt24learning.github.io/SiteDNA/privacy.html)
 
 ## Features
 
@@ -28,6 +28,8 @@ Read the full [privacy policy](https://mt24learning.github.io/SiteDNA/privacy.ht
 ## Pricing
 
 SiteDNA PRO costs **$9.99 once**, with every future update included. Each license key activates on up to three Chrome installations. Payments are handled by [Polar](https://polar.sh), the merchant of record.
+
+[**Buy SiteDNA PRO**](https://buy.polar.sh/polar_cl_wzRp3akjcbaq8IMes7E3xN5SEC0Fh7qCyT7rA3amTsR). Polar emails your license key; open SiteDNA, click **PRO** at the top, paste the key and click **Activate License**.
 
 ## Support
 
